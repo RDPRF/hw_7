@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d866986a-92e2-49dc-a551-9f6b4e3b0084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parameterizedTest/BeelineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parameterizedTest/TestBase.java" afterDir="false" />
+    <list default="true" id="d866986a-92e2-49dc-a551-9f6b4e3b0084" name="Changes" comment="Added test beeline.ru">
+      <change afterPath="$PROJECT_DIR$/src/test/java/parameterizedTest/telecomArmenia/TelecomArmenia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCase/beeline/testCheckHeaderElements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCase/beeline/testCheckSearch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCase/telecomArmenia/testCheckLocal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/BeelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parameterizedTest/beeline/BeelineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,12 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.BeelineTest.checkElementTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yavil\IdeaProjects\hw_7\src\test\java\testCase\beeline" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TelecomArmenia.methodSource">
     <configuration name="BeelineTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,7 +120,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LazadaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BeelineTest.findButtonForLocal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;parameterizedTest.LazadaTest&quot;" />
+            <option value="&quot;parameterizedTest.BeelineTest.findButtonForLocal&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -146,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LazadaTest.checkElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TelecomArmenia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +156,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;parameterizedTest.LazadaTest.checkElementTest&quot;" />
+            <option value="&quot;parameterizedTest.TelecomArmenia&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TelecomArmenia.methodSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;parameterizedTest.TelecomArmenia.methodSource&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,10 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BeelineTest.checkElementTest" />
+        <item itemvalue="Gradle.TelecomArmenia.methodSource" />
+        <item itemvalue="Gradle.TelecomArmenia" />
         <item itemvalue="Gradle.BeelineTest" />
-        <item itemvalue="Gradle.LazadaTest" />
-        <item itemvalue="Gradle.LazadaTest.checkElementTest" />
+        <item itemvalue="Gradle.BeelineTest.findButtonForLocal" />
+        <item itemvalue="Gradle.BeelineTest.checkElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +208,18 @@
       <option name="presentableId" value="Default" />
       <updated>1670942229247</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added test beeline.ru">
+      <created>1671022854619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671022854619</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added test beeline.ru" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test beeline.ru" />
   </component>
 </project>
